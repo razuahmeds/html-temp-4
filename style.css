@@ -1,0 +1,414 @@
+/* common style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #fab006;
+    --secondary: #525050;
+}
+
+.text-secondary {
+    color: var(--secondary);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.between {
+    justify-content: space-between;
+
+}
+
+.around {
+    justify-content: space-around;
+}
+
+
+.container {
+    padding: 30px 40px;
+}
+
+
+.nav-bar {
+    padding: 15px 200px;
+    border-radius: 5px;
+    background-color: black;
+
+}
+
+
+
+
+
+.nav-links {
+    list-style-type: none;
+}
+
+
+.nav-links>li {
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+.nav-links>li>a {
+    text-decoration: none;
+    color: azure;
+    margin: 0 20px;
+    padding: 10px;
+}
+.nav-links>li>a:hover {
+    text-decoration: none;
+    background-color: var(--primary);
+    padding: 10px;
+}
+
+
+
+.banner{
+    background-color: rgb(248, 244, 244);
+}
+
+.banner>.banner-text{
+    padding-left: 60px;
+}
+.banner-text>h5{
+    font-size: 25px;
+}
+.banner-text>h1{
+    font-size: 55px;
+    color: var(--primary);
+    margin: 15px 0;
+}
+.banner-text>p{
+    font-size: 19px;
+    color: var(--secondary);
+    margin: 10px 0;
+}
+.banner-text>button{
+    font-size: 19px;
+    color:#ffff;
+    background: #000000;
+    border: none;
+    margin: 10px 0;
+    padding: 17px 25px;
+}
+.banner-text>button:hover{
+    background: var(--primary);
+}
+
+
+.containers{
+    background-color: #dddadab0;
+}
+.containers >img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 15px;
+}
+
+
+.firs-section{
+    margin: 0 20px;
+}
+
+.collectons>{
+    padding: 50px;
+}
+.collectons>p{
+    color: var(--primary);
+    width: 200px;
+    margin: 10px 0;
+}
+.collectons>h5{
+    margin: 10px 0;
+}
+
+.collectons>h5:hover{
+    color: var(--primary);
+    margin: 10px 0;
+}
+
+.collectons>h2{
+    margin: 10px 0;
+    font-size: 25px;
+}
+.collectons>hr{
+    width: 110px;
+}
+
+
+
+.item-list{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+
+.item{
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.item-links {
+    list-style-type: none;
+}
+
+
+.item-links>li {
+    font-size: 18px;
+    padding: 10px 7px;
+}
+
+.item-links>li>a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 0 20px;
+    padding: 10px;
+}
+
+.item-links>li>a:hover {
+    text-decoration: none;
+    background-color: var(--primary);
+    padding: 10px;
+}
+
+
+
+
+
+.item-section{
+    margin: 25px 20px;
+    cursor: pointer;
+}
+.item-section>img{
+    height: 300px;
+    width: 295px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.item-section>h4{
+   margin: 10px 0;
+   font-size: 18px;
+   cursor: pointer;  
+}
+.item-section>h4:hover{
+    color: var(--primary);
+}
+.item-section>h5{
+    font-size: 15px;
+}
+
+
+.text-section{
+    background-color: var(--primary);
+    text-align: center;
+    padding: 100px 0;
+    color: #ffff;
+}
+.text-section>h5{
+    text-align: center;
+    padding: 30px 0;
+}
+.text-section>h1{
+    text-align: center;
+    padding: 10px 0;
+}
+.text-section>p{
+    text-align: center;
+    padding: 10px 0;
+}
+.text-section>button{
+    text-align: center;
+    padding: 14px 24px;
+    border: none;
+    cursor: pointer;
+}
+.text-section>hr{
+    width: 70px;
+    margin: 10px auto;
+    
+}
+
+
+
+
+
+.sale{
+    margin: 20px 50px;
+}
+.sale>h2{
+    margin: 0px 20px;
+}
+.sale>h2:hover{
+    color: var(--primary);
+    cursor: pointer;
+}
+.sale>hr{
+    width: 100px;
+    margin: 10px 20px;
+    color: var(--primary);
+}
+.no-sale{
+    margin: 35px 0px;
+}
+.no-sale>img{
+    margin: 0 20px;
+}
+
+.sale-text>h4{
+    font-size: 20px;
+    font-weight: 200;
+    margin: 10px 0;
+}
+.sale-text>h4:hover{
+    color: var(--primary);
+    cursor: pointer;
+
+}
+.sale-text>button{
+    padding: 10px 15px;
+    border: none;
+    background-color: var(--primary);
+    border-radius: 18px;
+}
+
+
+.main-section{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.main-section>h1{
+    font-size: 30px;
+}
+.main-section>hr{
+    width: 50px;
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
+
+.continue{
+    margin: 0 70px;
+}
+
+.from-section{
+    margin: 0 20px;
+}
+
+
+.ornare-text{
+    margin: 20px 0px;
+}
+.ornare-text:hover{
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.ornare-text>.day{
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--secondary);
+}
+.ornare-text>.ornare{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.ornare-text>.ornare:hover{
+    color: var(--primary);
+    cursor: pointer;
+}
+.ornare-text>p:hover{
+    color: var(--primary);
+    cursor: pointer;
+}
+
+
+.second-section{
+    background-color: #5250501d;
+}
+
+.newsletter-section{
+    margin: 0 100px;
+}
+.newsletter-section>.newsletter-text{
+    margin: 0 40px;
+    padding: 40px 0;
+}
+
+
+
+.input-from{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.input-from>input{
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px 150px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+}
+.input-from>button{
+    text-align: center;
+    padding: 15px 40px;
+    font-size: 20px;
+    border: none;
+    background: #fab006;
+    border-radius: 20px;
+}
+.input-from>button:hover{
+    text-align: center;
+    padding: 15px 40px;
+    font-size: 20px;
+    border: none;
+    background: #0f0f0f;
+    color: #ffff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.main-footer{
+    background-color: #000000;
+}
+.main-footer>p{
+    color: #ffff;
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+
+.footer-content{
+    text-align: center;
+    color: #ffff;
+    padding: 100px 0;
+    
+}
+.footer-content>h1{
+    margin: 10px 0;
+    
+}
+.footer-content>h2{
+    margin: 10px 0;
+    cursor: pointer;
+    color: #cb9a27;
+    
+}
+.footer-content>h2:hover{
+    color: var(--primary);
+    
+}
+.footer-content>h1:hover{
+    color: #fab006;
+    cursor: pointer;
+    
+}
